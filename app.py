@@ -203,3 +203,6 @@ else:
                     use_container_width=True,
                     caption=selected_name
                 )
+
+st.markdown("---")
+st.markdown("© 2026 James Bryan Francisco")
