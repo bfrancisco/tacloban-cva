@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>tacloban-coastal-landmarks.kml</name>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>667faa00</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>bf7faa00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>667faa00</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>bf7faa00</color>
+		</PolyStyle>
+	</Style>
+	<Folder id="results">
+		<name>tacloban city</name>
+		<open>1</open>
+		<Placemark>
+			<name>Tacloban City Convention Center</name>
+			<styleUrl>#msn_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							125.003213714554,11.22447404726606,0 125.0026391801854,11.22427089066615,0 125.0010435395229,11.22320208722886,0 125.0014325265068,11.22232933005879,0 125.0026845654748,11.2215507163187,0 125.0039794003016,11.22024140989234,0 125.0049506637017,11.22079600121527,0 125.0056393847098,11.22142694687008,0 125.0057299984884,11.22161297588414,0 125.0051244377774,11.22280980575846,0 125.0049718789598,11.22283257292094,0 125.0048167256979,11.22302761139117,0 125.0045459408194,11.2232254257803,0 125.0044621904864,11.22451243831127,0 125.003213714554,11.22447404726606,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Paraiso Mangrove Eco Learning Park</name>
+			<styleUrl>#msn_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							125.0117238116747,11.21368880719091,0 125.0108447628582,11.2115552018766,0 125.0142498619603,11.21015367152265,0 125.015288060575,11.20963071462117,0 125.0167620298434,11.20863226218304,0 125.0173125626926,11.20821648845997,0 125.0183021028372,11.20871594606461,0 125.0177747528487,11.20936473828577,0 125.0171166597148,11.21071951049687,0 125.0166478592447,11.21242327748918,0 125.0164923954162,11.21276246056053,0 125.0159318214863,11.213355950553,0 125.0158195962272,11.21341224694586,0 125.0152483579426,11.2133901135583,0 125.0138782791633,11.21254907158913,0 125.0135079178799,11.21299245280771,0 125.0124938095208,11.21324931363838,0 125.0120212301366,11.21341081703431,0 125.0117238116747,11.21368880719091,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Fisherman&apos;s Village</name>
+			<styleUrl>#msn_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							125.0223100731467,11.2156288000076,0 125.023696108601,11.21612576704757,0 125.0236328157632,11.21665688618913,0 125.023803538039,11.21729418650734,0 125.0239612278936,11.21775312068665,0 125.0235516264298,11.21859183147283,0 125.0230075160428,11.21874934109867,0 125.0225244227875,11.21887391955618,0 125.0220188345622,11.21878411211021,0 125.0215249914327,11.21851675980059,0 125.0210192905853,11.21807862145715,0 125.0207963697844,11.21774156596882,0 125.0210767059379,11.21746456534753,0 125.0213238621531,11.21711593547967,0 125.0216867845775,11.21662545932653,0 125.021761979953,11.21639567339612,0 125.0219014308895,11.21621346949044,0 125.022053783642,11.21610269805113,0 125.0220998235645,11.21611783827819,0 125.0223100731467,11.2156288000076,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Port of Tacloban</name>
+			<styleUrl>#msn_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							124.9953187934891,11.24554259858058,0 124.9956617266571,11.24483757184121,0 124.9963682838333,11.24392408023323,0 124.9979726731282,11.24253617975207,0 125.0004291051116,11.24320763591824,0 125.0023349163517,11.24562862191632,0 125.0039098768327,11.25124187159887,0 125.0027249265084,11.25231973160588,0 125.0017239126394,11.25271050960313,0 124.9997792635876,11.24859139813631,0 124.9986365297735,11.24914201801578,0 124.9985490853734,11.24894263921105,0 124.9996953964165,11.24832300786626,0 124.9994238727816,11.24757473441927,0 124.9998627689908,11.24752410119008,0 125.0003466246301,11.24699389675488,0 124.9996563717058,11.24618520737049,0 124.999025802084,11.24620954713224,0 124.9988819534978,11.24648965319062,0 124.9981594932321,11.2470269356438,0 124.9969994724702,11.2477274069249,0 124.9953187934891,11.24554259858058,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10441"></atom:link>
+	</Folder>
+</Document>
+</kml>

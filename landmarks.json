@@ -1,0 +1,78 @@
+{
+  "landmarks": [
+    {
+      "name": "Tacloban City Convention Center",
+      "geomorphology": {
+        "score": 2,
+        "description": "The area gently slopes toward the sea and is approximately 2 to 2.5 meters above sea level, indicating moderate elevation and reduced exposure compared to very low-lying coastal zones."
+      },
+      "natural_buffers": {
+        "score": 4,
+        "description": "The shoreline is lined with numerous bushes and trees, with nearby banana tree plantations within the town that help reduce wave energy and surface runoff."
+      },
+      "engineering_structures": {
+        "score": 4,
+        "description": "The presence of waterways and drainage canals within the community helps manage excess water and reduces localized flooding during heavy rainfall events."
+      },
+      "images": [
+        "images/tacloban-city-convention-center.jpg",
+        "images/tacloban-city-convention-center-canal.jpg"
+      ]
+    },
+    {
+      "name": "Paraiso Mangrove Eco Learning Park",
+      "geomorphology": {
+        "score": 5,
+        "description": "The shoreline is fully surrounded by an extensive mangrove ecosystem, which significantly alters wave dynamics and provides strong natural protection against coastal hazards."
+      },
+      "natural_buffers": {
+        "score": 5,
+        "description": "Dense mangrove forests act as highly effective natural buffers, absorbing storm surge energy, stabilizing sediments, and reducing coastal erosion."
+      },
+      "engineering_structures": {
+        "score": 3,
+        "description": "Bridges and elevated walkways are present to allow access across the mangrove area, providing limited structural intervention without heavily modifying the natural environment."
+      },
+      "images": [
+        "images/mangrove.jpg"
+      ]
+    },
+    {
+      "name": "Fisherman's Village",
+      "geomorphology": {
+        "score": 2,
+        "description": "The area lies less than one meter above sea level, with many residential structures located close to the shoreline, making it highly susceptible to flooding and storm surge."
+      },
+      "natural_buffers": {
+        "score": 2,
+        "description": "There are relatively few trees and shrubs compared to the city proper, offering minimal natural protection from waves and coastal flooding."
+      },
+      "engineering_structures": {
+        "score": 2,
+        "description": "Drainage systems in the area are poorly maintained, reducing their effectiveness in managing floodwaters and increasing vulnerability during extreme weather events."
+      },
+      "images": [
+        "images/fisherman.jpg",
+        "images/fisherman-canal.jpg"
+      ]
+    },
+    {
+      "name": "Port of Tacloban",
+      "geomorphology": {
+        "score": 4,
+        "description": "The port area is situated approximately 3 to 4 meters above sea level, providing moderate elevation that reduces direct exposure to regular tidal flooding."
+      },
+      "natural_buffers": {
+        "score": 2,
+        "description": "The highly urbanized coastal environment has little to no vegetation, resulting in minimal natural buffering against coastal hazards."
+      },
+      "engineering_structures": {
+        "score": 4,
+        "description": "Reinforced concrete structures along the coastline provide strong engineered protection against waves, erosion, and storm surge."
+      },
+      "images": [
+        "images/port-of-tacloban-walls.jpg"
+      ]
+    }
+  ]
+}
