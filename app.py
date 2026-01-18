@@ -30,13 +30,13 @@ def compute_cvi(l):
     )
 
 def get_color(cvi):
-    if cvi <= 2.0:
+    if cvi <= 1.0:
         return "red"
-    elif cvi <= 3.0:
+    elif cvi <= 2.0:
         return "orange"
-    elif cvi <= 4.0:
+    elif cvi <= 3.0:
         return "yellow"
-    elif cvi <= 4.5:
+    elif cvi <= 4.0:
         return "green"
     else:
         return "blue"
