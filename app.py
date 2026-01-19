@@ -31,13 +31,13 @@ def compute_cvi(l):
 
 def get_color(cvi):
     cvi = cvi//1
-    if cvi == 1:
+    if cvi == 5:
         return "red"
-    elif cvi == 2:
+    elif cvi == 4:
         return "orange"
     elif cvi == 3:
         return "yellow"
-    elif cvi == 4:
+    elif cvi == 2:
         return "green"
     else:
         return "blue"
@@ -176,11 +176,11 @@ The **Coastal Vulnerability Index (CVI)** indicates how susceptible a coastal ar
 flooding, erosion, and storm surge based on physical setting and protection mechanisms.
 
 **Color and Score Classification:**
-- 🔵 **Blue (5)** – Lowest vulnerability; elevated or well-protected areas  
-- 🟢 **Green (4)** – Low vulnerability; minor exposure to hazards  
+- 🔵 **Blue (1)** – Lowest vulnerability; elevated or well-protected areas  
+- 🟢 **Green (2)** – Low vulnerability; minor exposure to hazards  
 - 🟡 **Yellow (3)** – Moderate vulnerability; noticeable risk  
-- 🟠 **Orange (2)** – High vulnerability; significant exposure  
-- 🔴 **Red (1)** – Highest vulnerability; very exposed and at risk  
+- 🟠 **Orange (4)** – High vulnerability; significant exposure  
+- 🔴 **Red (5)** – Highest vulnerability; very exposed and at risk  
 """)
 
 # -----------------------------
